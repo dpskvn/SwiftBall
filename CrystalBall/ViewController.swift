@@ -17,7 +17,7 @@ class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
-        var imagesArr = UIImage[]()
+        var imagesArr = [UIImage]()
         for num in 1...60 {
             if num < 10 {
                 imagesArr.append(UIImage(named: "CB0000\(num)"))
